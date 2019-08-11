@@ -1,0 +1,715 @@
+* {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 650px;
+  background-image: url(https://images.pexels.com/photos/134575/pexels-photo-134575.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=800&w=500 );
+}
+
+
+
+#logo {
+  width: 100%;
+  height: 650px;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fcd7e521;
+}
+
+h1 {
+  font-size: 270%;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+}
+
+h2 {
+  font-size: 200%;
+  width: 100%;
+}
+
+h3 {
+  font-size: 200%;
+  width: 100%;
+}
+
+p {
+  font-size: 150%;
+  color: black
+}
+
+#logo ul {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin: 3%;
+  color: #93215a;
+  display: inline-block;
+}
+
+#logo li:nth-of-type(2) {
+  width: 50%;
+  height: 20%;
+  margin-top: 2%;
+  margin-left: 45%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+#logo li:nth-of-type(3) {
+  margin-left: 25%;
+  width: 40%;
+  height: auto;
+  margin-top: 7%;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#logo li:nth-of-type(4) {
+  margin-left: 25%;
+  width: 35%;
+  height: 35%;
+  margin-top: 5%;
+  margin-left: 65%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+#logo img {
+  width: 20%;
+  float: left;
+  background-color: #fcd7e587
+}
+
+section {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: #fcd7e587;
+  align-items: center;
+}
+
+#about-us ul {
+  flex-direction: row;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about-us li {
+  display: block;
+  width: 32%;
+  height: 100%;
+  text-align: center;
+  color: #93215a;
+  border: 1px solid #93215a;
+}
+
+.about-us {
+  display: flex;
+  width: 40%;
+  height: 350px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #93215a;
+  position: absolute;
+  background-color: #ebeef3;
+  border: 1px solid #93215a
+}
+
+span {
+  width: 80%;
+  align-self: center;
+}
+
+#about-us h2 {
+  width: 100%;
+  height: auto;
+}
+
+#about-us p {
+  width: 100%;
+  height: auto;
+  font-size: 150%;
+}
+
+#about-us img {
+  width: 100%;
+  height: auto;
+}
+
+#menu {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: space-around;
+}
+
+.menu {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu p {
+  font-size: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.menu h3 {
+  font-size: 150%;
+  color: #93215a;
+  width: 100%;
+  text-align: center;
+}
+
+.menu img {
+  width: 30%;
+}
+
+.parallax1 {
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-image: url(https://realfood.tesco.com/media/images/RFO-1400x919-VanillaCupcakes-0c7dfdf5-87ce-44f4-8180-cfe8c8140260-0-1400x919.jpg);
+}
+
+#ad {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  color: #93215a;
+  background-color: #fcd7e521;
+  background-size: 100%;
+}
+
+.text {
+  width: 50%;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-one {
+  width: 50%;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  line-height: 1.5;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.text-one p {
+  font-size: 150%;
+  text-align: justify;
+  margin: 20px;
+}
+
+.text ul {
+  width: 80%;
+  height: auto;
+  
+}
+
+.text p {
+  font-size: 150%;
+}
+
+.text ul li {
+  width: 100%;
+}
+
+.text ul li h2 {
+  width: 100%;
+}
+
+.text img {
+  width: 10%;
+}
+
+#form {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul.contact-us {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5;
+  background-color: #ebeef3;
+  border: 1px solid #93215a;
+  position: absolute;
+  margin-left: 10%;
+}
+
+ul.contact-us h2 {
+  text-transform: uppercase;
+  color: #93215a;
+}
+
+ul.contact-us li {
+  width: 60%;
+}
+
+form {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2;
+  background-color: #93215a29;
+  border: 1px solid #93215a;
+  margin-left: 45%;
+}
+
+form h2 {
+  width: 60%;
+  text-transform: uppercase;
+  color: #93215a;
+}
+
+.form-style-1 {
+  margin: 10px auto;
+  max-width: 400px;
+  width: 50%
+}
+
+.form-style-1 li {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+
+.form-style-1 label {
+  margin: 0 0 3px 0;
+  padding: 0px;
+  display: block;
+  font-weight: bold;
+}
+
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea,
+select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #BEBEBE;
+  padding: 7px;
+  margin: 0px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+}
+
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus {
+  -moz-box-shadow: 0 0 8px #88D5E9;
+  -webkit-box-shadow: 0 0 8px #88D5E9;
+  box-shadow: 0 0 8px #88D5E9;
+  border: 1px solid #88D5E9;
+}
+
+.form-style-1 .field-divided {
+  width: 49%;
+}
+
+.form-style-1 .field-long {
+  width: 100%;
+}
+
+.form-style-1 .field-select {
+  width: 100%;
+}
+
+.form-style-1 .field-textarea {
+  height: 100px;
+}
+
+.form-style-1 input[type=submit], .form-style-1 input[type=button] {
+  background: #93215a;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+}
+
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover {
+  background: #93215a;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  cursor: pointer;
+}
+
+.form-style-1 .required {
+  color: red;
+}
+
+.parallax3 {
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #fcd7e521;
+  font-size: 200%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://static01.nyt.com/images/2017/04/11/dining/11COOKING-MAGNOLIA-BAKERY3/11COOKING-MAGNOLIA-BAKERY3-videoSixteenByNineJumbo1600.jpg );
+}
+
+footer p {
+  font-size: 50%;
+  width: 25% auto;
+  text-align: center;
+}
+
+.social-media {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  height: 270px;
+}
+
+.social-media i {
+  color: #93215a;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+  body {
+    margin: auto 0;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 300%;
+    height: auto;
+    width: 100%
+  }
+
+  h2 {
+    font-size: 220%;
+  }
+
+  h3 {
+    font-size: 150%
+  }
+
+  .parallax {
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+  }
+
+  #logo {
+    width: 100%;
+    height: auto;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fcd7e521;
+  }
+
+  .about-us h2 {
+    font-size: 180%
+  }
+
+  .about-us p {
+    font-size: 150%
+  }
+
+  #menu {
+    height: 500px;
+  }
+
+  #ad {
+    background-image: url(https://realfood.tesco.com/media/images/RFO-1400x919-VanillaCupcakes-0c7dfdf5-87ce-44f4-8180-cfe8c8140260-0-1400x919.jpg);
+  }
+
+  .text-one {
+    line-height: 1.2
+  }
+
+  form {
+    line-height: 1
+  }
+
+  .parallax1 {
+    background-image: none
+  }
+
+  .parallax3 {
+    background-image: none;
+  }
+
+  footer {
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  .social-media {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  body {
+    margin: auto 0;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 150%;
+    height: auto;
+    width: 100%
+  }
+
+  h2 {
+    font-size: 150%;
+  }
+
+  h3 {
+    font-size: 100%
+  }
+
+  .parallax {
+    background-attachment: fixed;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    height: 350px;
+  }
+
+  #logo {
+    width: 100%;
+    height: 350px;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fcd7e521;
+  }
+
+  #logo img {
+    width: 40%
+  }
+
+  #logo ul {
+    margin: 1%;
+  }
+
+  #menu {
+    height: auto;
+  }
+
+  .about-us h2 {
+    font-size: 100%
+  }
+
+  .about-us {
+    width: 40%;
+    height: auto;
+  }
+
+  #about-us p {
+    width: 100%;
+    height: auto;
+    font-size: 90%;
+    text-align: left;
+  }
+
+  #about-us {
+    height: 400px;
+  }
+
+  #menu {
+    height: auto;
+    flex-direction: row;
+  }
+
+  #menu img {
+    width: 50%;
+    height: 50%;
+  }
+
+  #menu p {
+    font-size: 100%
+  }
+
+  #menu h3 {
+    font-size: 120%
+  }
+
+  .menu {
+    width: auto;
+  }
+
+  #ad {
+    display: block;
+    height: auto;
+  }
+
+  #ad h2 {
+    font-size: 150%;
+    margin-top: 5%
+  }
+
+  .text-one p {
+    line-height: 1.2;
+    font-size: 140%;
+    margin: 5%;
+    margin-top: 0px
+  }
+
+  .text p {
+    font-size: 140%
+  }
+
+  .text-one {
+    justify-content: flex-start;
+    height: auto;
+    width: 100%
+  }
+
+  .text {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%
+  }
+
+  .text ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  ul.contact-us {
+    height: auto;
+  }
+
+  ul.contact-us p {
+    font-size: 100%
+  }
+
+  ul.contact-us li {
+    width: 90%
+  }
+
+  form {
+    line-height: 1;
+    height: auto;
+  }
+
+  #form h2 {
+    font-size: 100%
+  }
+
+  #form {
+    height: 400px;
+  }
+
+  .form-style-1 input[type=text] {
+    width: 100%;
+    padding: 0
+  }
+
+  #ad {
+    background-image: url(https://realfood.tesco.com/media/images/RFO-1400x919-VanillaCupcakes-0c7dfdf5-87ce-44f4-8180-cfe8c8140260-0-1400x919.jpg);
+    background-size: cover;
+  }
+
+  .text ul {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    background-image: url(https://static01.nyt.com/images/2017/04/11/dining/11COOKING-MAGNOLIA-BAKERY3/11COOKING-MAGNOLIA-BAKERY3-videoSixteenByNineJumbo1600.jpg );
+    background-size: 100%;
+    height: 200px;
+  }
+
+  .social-media {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+  }
+
+  .parallax3 {
+    height: auto;
+  }
+
+  .parallax1 {
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    background-image: url(https://realfood.tesco.com/media/images/RFO-1400x919-VanillaCupcakes-0c7dfdf5-87ce-44f4-8180-cfe8c8140260-0-1400x919.jpg);
+  }
+}
