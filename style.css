@@ -281,7 +281,7 @@ a {
 .overlay1 p,
 .overlay p {
   width: 100%;
-
+  padding-left: 3%;
   font-size: 110%;
   color: white;
   font-family: 'Montserrat', sans-serif;
@@ -328,7 +328,7 @@ a {
   line-height: 1.8;
   border-radius: 5px;
   margin: 7px;
-
+  padding-left: 3%;
 
 
 }
