@@ -1,0 +1,541 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&family=Titan+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+
+    }
+
+    header {
+        width: 100%;
+        height: 625px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .img {
+        width: 100%;
+        height: 625px;
+        background-size: cover;
+        background-image: linear-gradient(to bottom, #7BABC0, rgb(131 176 196 / 60%), rgb(134 177 198 / 59%), rgb(131 175 196 / 50%), rgb(130 176 196 / 28%), rgb(30 116 29 / 42%), rgb(33 119 31 / 38%), rgb(51 93 50 / 49%), rgb(33 119 31 / 40%), rgb(162 210 161 / 67%), rgb(224 255 223 / 74%), rgb(255 255 255)), url(header2.jpg);
+
+    }
+
+    .image-box img {
+        width: 30%;
+        margin-top: -150px;
+
+        z-index: 3;
+        position: absolute;
+
+    }
+
+    .image-box-1 img {
+        width: 30%;
+        margin-top: -200px;
+        margin-left: 180px;
+        z-index: 2;
+        position: absolute;
+
+    }
+
+    .image-box-2 img {
+        width: 30%;
+        margin-top: -250px;
+        margin-left: 360px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    ul.intro {
+        z-index: 2;
+        position: absolute;
+        width: 95%;
+
+    }
+
+    ul.intro li {
+        text-align: right;
+
+    }
+
+    ul.intro h1 {
+        color: #ffffff;
+        font-family: 'Titan One', cursive;
+        font-size: 300%;
+        font-weight: 300;
+    }
+
+    ul.intro h2 {
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif
+    }
+
+    h3 {
+        color: #164c4a;
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        display: flex;
+        align-self: flex-end;
+        line-height: 2;
+        padding-left: 900px;
+    }
+
+    .challenge,
+    .research,
+    .affinity-diagram,
+    .usability-test {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .challenge-box,
+    .research-box,
+    .affinity-box,
+    .usability-test-box {
+        width: 90%;
+        height: auto;
+
+        align-self: center;
+
+    }
+
+    .challenge {
+        margin-top: 70px;
+    }
+
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 3;
+        margin-left: 20px;
+        font-size: 200%;
+    }
+
+    p {
+        width: 100%;
+        line-height: 1.8;
+
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    .scope-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .scope-image img {
+        height: 250px;
+
+    }
+
+    .interv-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .interv-box img {
+        width: 48%;
+        margin: 3%;
+    }
+
+    .design-thinking-stages {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .design-thinking-stages p {
+        width: 100%;
+    }
+
+    .design-thinking-stages img {
+        width: 50%;
+        height: 250px;
+        align-self: center;
+    }
+
+    .affinity {
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .affinity1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .affinity img,
+    .affinity1 img {
+        width: 35%;
+        height: 300px;
+        margin: 50px;
+        border-radius: 5%;
+        box-shadow: 0px 0px 16px 2px rgb(230, 226, 226);
+    }
+
+    .sketch {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul.sketch-box {
+        width: 80%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    ul.sketch-box li {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+    }
+
+    ul.sketch-box img {
+        width: 80%;
+    }
+
+    .lofi,
+    .iteration {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+
+    .lofi-box,
+    .iteration-box {
+        width: 50%;
+        height: 500px;
+        margin-left: 65px;
+
+    }
+
+    .lofi-img,
+    .iteration-img {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        height: 450px;
+    }
+
+    .lofi-img img,
+    .iteration-img img {
+        width: 40%;
+        margin-left: 30px;
+    }
+
+    .usability-test-box img {
+        height: 300px;
+        align-self: center;
+        margin-top: 50px;
+    }
+
+    .usability-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .check-list {
+        width: 100%;
+        height: 500px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .check-list-box {
+        width: 90%;
+    }
+
+    .design_systems {
+
+        width: 100%;
+        justify-content: center;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .design_systems img {
+        width: 30%;
+    }
+
+    .design_systems2 {
+        width: 100%;
+        display: flex;
+    }
+
+    .design_systems2 img {
+        width: 100%;
+    }
+
+    .frame2,
+    .frame1 {
+        width: 50%;
+    }
+
+
+    @media (max-width: 767px) and (min-width: 319px) {
+
+        .image-box img {
+            width: 70%;
+            margin-top: -50px;
+            z-index: 3;
+            margin-left: -30px;
+            position: absolute;
+        }
+
+        .image-box-1 img {
+            width: 70%;
+            margin-top: -70px;
+            margin-left: 50px;
+            z-index: 2;
+            position: absolute;
+        }
+
+        .image-box-2 img {
+            width: 70%;
+            margin-top: -100px;
+            margin-left: 90px;
+            position: absolute;
+            z-index: 1;
+        }
+
+        ul.intro li {
+            text-align: center;
+        }
+
+        ul.intro h1 {
+            color: #e2c0ad;
+            font-family: 'Titan One', cursive;
+            font-size: 200%;
+            font-weight: 300;
+            margin-top: -250px;
+        }
+
+        h3 {
+            color: #164c4a;
+            font-family: 'Raleway', sans-serif;
+            position: absolute;
+            display: flex;
+            align-self: flex-end;
+            line-height: 2;
+            padding-left: 0px;
+        }
+
+
+        .challenge {
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 2;
+            margin-left: 0px;
+            font-size: 150%;
+        }
+
+        p {
+            width: 100%;
+            line-height: 1.8;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .scope-image {
+            width: 100%;
+            display: block;
+            justify-content: center;
+        }
+
+        .scope-image img {
+            height: 100px;
+            width: 100%;
+        }
+
+        .challenge,
+        .research,
+        .affinity-diagram,
+        .usability-test {
+            margin-top: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .interv-box {
+            width: 100%;
+            display: block;
+            justify-content: center;
+        }
+
+        .interv-box img {
+            width: 100%;
+            margin: 0%;
+        }
+
+        .affinity {
+            width: 100%;
+            margin-top: 50px;
+            display: block;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .affinity img,
+        .affinity1 img {
+            width: 100%;
+            height: 300px;
+            margin: 0px;
+            border-radius: 5%;
+            box-shadow: 0px 0px 16px 2px rgb(230, 226, 226);
+        }
+
+        .sketch {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul.sketch-box {
+            width: 80%;
+            height: auto;
+            display: block;
+            flex-direction: row;
+        }
+
+        ul.intro h2 {
+            color: #164c4a;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 100%;
+        }
+
+        .affinity1 {
+            width: 100%;
+            display: block;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lofi,
+        .iteration {
+            width: 100%;
+            height: auto;
+            display: block;
+            flex-direction: row;
+            margin-top: 0px;
+        }
+
+        .lofi-box,
+        .iteration-box {
+            width: 100%;
+            height: auto;
+            margin-left: 0;
+        }
+
+        .lofi-img img,
+        .iteration-img img {
+            width: 50%;
+            margin-left: 0px;
+        }
+
+        .lofi-img,
+        .iteration-img {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            height: auto;
+        }
+
+        .usability-test-box img {
+            height: 100px;
+            align-self: center;
+            margin-top: 50px;
+            width: 100%;
+        }
+
+        .check-list {
+            width: 100%;
+            height: auto;
+            justify-content: center;
+            display: flex;
+            margin-top: 20px;
+        }
+    }
+
+    @media screen and (min-width: 1920px) {
+        header .img {
+            width: 100%;
+            height: 825px;
+        }
+
+        header {
+            width: 100%;
+            height: 625px;
+        }
+
+        .image-box img {
+            width: 20%;
+
+        }
+
+        .image-box-1 img {
+            width: 20%;
+
+        }
+
+        .image-box-2 img {
+            width: 20%;
+
+        }
+
+        ul.intro {
+            z-index: 2;
+            position: absolute;
+            width: 50%;
+
+        }
+
+        .affinity img,
+        .affinity1 img {
+            width: 25%;
+            height: 400px;
+
+        }
+
+        .lofi-img,
+        .iteration-img {
+            width: 30%;
+
+            height: 550px;
+        }
+
+        .interv-box {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+    }

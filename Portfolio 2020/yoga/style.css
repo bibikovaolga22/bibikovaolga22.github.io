@@ -1,0 +1,1044 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #ffffeb80;
+}
+.pic1 {
+    position: absolute;
+    z-index: -1;
+    top: -100px;
+    left: -50px;
+}
+.pic1 img{
+    width: 800px;
+
+}
+section ul img {
+    width: 100%;
+    height: 100%;
+}
+
+.pic2 {
+    width: 60%;
+    position: absolute;
+    z-index: 1;
+    top: -50px;
+    right: -100px;
+}
+
+header {
+
+    width: 100%;
+    height: 50px;
+
+}
+
+header ul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    width: 10%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: #4964ab;
+
+}
+
+header ul li a {
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    color: #262677;
+    transition: 0.1s;
+    font-weight: 900;
+}
+
+header ul li a:hover {
+    color: #ea88a2;
+    transition: 0.1s;
+}
+
+header ul li:first-child {
+    width: 20%;
+    font-family: 'Yatra One', cursive;
+    font-size: 130%;
+    cursor: pointer
+}
+
+
+ 
+
+header ul li img {
+
+    height: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.button {
+    width: 50%;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 900;
+    /* font-family: 'Varela Round', sans-serif; */
+    font-family: 'Aclonica', sans-serif;
+    color: #b95872;
+    line-height: 2;
+}
+
+.carousel {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.carousel img {
+    width: 100%;
+    height: 600px;
+}
+
+
+.book_lesson {
+    width: 40%;
+    height: 60px;
+    margin-top: 40px;
+    background-color: #f2f25a;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: -4px 8px 12px -9px rgba(0, 128, 128, 1);
+    -moz-box-shadow: -4px 8px 12px -9px rgba(0, 128, 128, 1);
+    box-shadow: -4px 8px 12px -9px rgba(0, 128, 128, 1);
+    transition: 0.5s;
+
+}
+
+
+.book_lesson:hover {
+    cursor: pointer;
+
+}
+
+.book_lesson:active {
+    transform: scale(0.5, 0.5);
+    transition: 1s;
+}
+
+.pic4 {
+    width: 40%;
+
+   
+}
+
+.pic4 img {
+    width: 100%;
+   
+}
+h2{
+   
+    font-family: 'Aclonica', sans-serif;
+    color: #262677;;
+    font-size: 200%;
+    width: 100%;
+    height: 150px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: flex-end;
+ 
+}
+  h3{
+    font-size: 150%;
+    color: #b95872;
+    text-align: center;
+    line-height: 3;
+    font-family: 'Aclonica', sans-serif;
+     width: 80%;
+}
+
+
+.book_lesson h3{
+    font-size: 130%;
+    font-family: 'Varela Round', sans-serif;
+    color: #474593;
+    width: 100%;
+}
+p{
+    font-size: 130%;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.5;
+    color: #262677;
+    width: 90%;
+    text-align: left;
+}
+article{
+	width: 100%;
+    height: 500px;
+      display:flex;
+}
+.pic5{
+    width: 50%;
+   
+}
+.pic5 img{
+    
+    margin-left: 20px;
+}
+.pic6{
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+    top: 800px;
+    margin-left: 650px;
+}
+
+.pic6 img{
+    width: 100%;
+    height: 500px;
+   
+}
+.section-1{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+     
+}
+.pic7{
+    width: 50%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -540px;
+}
+.pic7 img{
+        width: 100%;
+         
+}
+
+.pic8{
+    width: 30%;
+    left: 944px;
+    position: absolute;
+    z-index: -1;
+    margin-top: -435px;
+}
+.pic8 img{
+width: 100%;   
+}
+
+.pic9{     
+    width: 25%;
+    left: 0px;
+    position: absolute;
+    z-index: -1;
+    left: 600px;
+    margin-top: 80px;
+}
+.pic9 img{
+    width: 100%;
+     
+}
+section {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 1500px;
+    overflow: hidden;
+}
+.yoga-types{
+  
+    width: 55%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+.yoga-image{
+    width: 40%;
+    height: auto;
+   display: flex;
+   justify-content: center;
+}
+.yoga-image img{
+    width: 90%;
+     
+}
+.slides{
+    margin-top: 5%;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    margin-left: 15px;
+}
+ 
+
+.slides h3{
+    line-height: 2;
+    font-size: 150%;
+    font-family: 'Varela Round', sans-serif;
+    color: #b95872;
+}
+
+.social-media{
+    width: 40%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+#slider{
+    height: 700px;
+    width: 100%;
+    overflow: hidden
+     
+}
+#slider h2{
+        justify-content: center;
+    align-content: center;
+    
+}
+#events{
+     height: 700px;
+      width: 100%;
+   
+}
+.upcomig-events{
+     
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+ 
+.events{
+        
+    box-shadow: -1px 5px 18px 0px rgba(152, 153, 131, 0.35);
+    width: 30%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    color: #474593;
+    position: relative;
+    margin: 50px;
+}
+.events img{
+     width: 60%;
+     height: 80%
+}
+
+#events h2{
+     height: 100px;
+
+}
+h4{
+        font-family: 'Varela Round', sans-serif;
+        position: absolute;
+        top: 150px;
+        left: 50px;
+}
+#rewards{
+    width: 100%;
+    background-image: url(festival.jpg);
+    height: 500px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+ 
+     .overlay{
+        background-color: #ffffffde;
+        height: 400px;
+        width: 90%;
+        display: block;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+     }   
+     #rewards h2{
+        font-family: 'Aclonica', sans-serif;
+        color: #b95872;
+        font-size: 200%;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-top: 0px;
+     }
+     
+     #rewards h3{
+        font-size: 150%;
+        color: #ea88a2;
+        text-align: center;
+        line-height: 1;
+        font-family: 'Aclonica', sans-serif;
+         width: 80%;
+    }
+    #rewards p{
+        width: 80%;
+        text-align: center;
+    }
+#rewards ul{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#rewards li{ 
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+    font-family: 'Aclonica', sans-serif;
+    font-size: 180%;
+    color: #262677;
+}
+ 
+ 
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+}
+.footer-box-logo{
+    width: 30%;
+    font-family: 'Yatra One', cursive;
+    font-size: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5374b2;
+    font-weight: 700;
+
+}
+.footer-box-logo img{
+    width: 30%;
+    height: 200px;
+
+}
+.address{
+    width: 40%;
+    height: auto;
+       justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}
+.footer-box {
+    width: 30%;
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+}
+.address p{
+        width: 100%;
+    height: auto;
+       text-align: justify;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 319px)and (max-width:767px){
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+    body{
+        background-color: #ffffeb80;
+    }
+    .pic1 {
+        position: absolute;
+        z-index: -1;
+        top: -90px;
+        left: -190px;
+    }
+    .pic1 img{
+        width: 800px;
+    
+    }
+    section ul img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .pic2 {
+        width: 40%;
+        position: absolute;
+        z-index: 1;
+        top: 0px;
+        right: 0px;
+    }
+    
+    header {
+    
+        width: 100%;
+        height: 100px;
+    
+    }
+    
+    header ul {
+        width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    }
+    
+    header ul li {
+        width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: #4964ab;
+    
+    }
+    
+    header ul li a {
+        font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    color: #262677;
+    transition: 0.1s;
+    font-weight: 900;
+    font-size: 60%;
+    }
+    
+    header ul li a:hover {
+        color: #ea88a2;
+        transition: 0.1s;
+    }
+    
+    header ul li:first-child {
+        width: 40%;
+        font-family: 'Yatra One', cursive;
+        font-size: 50%;
+        cursor: pointer;
+    }
+    
+    
+     
+    
+    header ul li img {
+    
+        height: 100%;
+    }
+    
+    .banner {
+        width: 100%;
+        height: 550px;
+        display: block;
+    
+    }
+    
+    .button {
+        width: 100%;
+    height: 200px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    color: #b95872;
+    line-height: 2;
+    }
+    
+    .carousel {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .carousel img {
+        width: 100%;
+        height: 450px;
+    }
+    
+    
+    .book_lesson {
+        width: 40%;
+        height: 60px;
+        margin-top: 40px;
+        background-color: #f2f25a;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-box-shadow: -4px 8px 12px -9px rgba(0, 128, 128, 1);
+        -moz-box-shadow: -4px 8px 12px -9px rgba(0, 128, 128, 1);
+        box-shadow: -4px 8px 12px -9px rgba(0, 128, 128, 1);
+        transition: 0.5s;
+    
+    }
+    
+    
+    .book_lesson:hover {
+        cursor: pointer;
+    
+    }
+    
+    .book_lesson:active {
+        transform: scale(0.5, 0.5);
+        transition: 1s;
+    }
+    
+    .pic4 {
+        width: 50%;
+        margin-top: 150px;
+    
+       
+    }
+    
+    .pic4 img {
+        width: 100%;
+       
+    }
+    h2{
+       
+        font-family: 'Aclonica', sans-serif;
+        color: #262677;;
+        font-size: 200%;
+        width: 100%;
+        height: 150px;
+       display: flex;
+       justify-content: center;
+       align-content: center;
+       align-items: center;
+     
+    }
+      h3{
+        font-size: 150%;
+        color: #b95872;
+        text-align: center;
+        line-height: 3;
+        font-family: 'Aclonica', sans-serif;
+         width: 80%;
+    }
+    
+    
+    .book_lesson h3{
+        font-size: 130%;
+        font-family: 'Varela Round', sans-serif;
+        color: #474593;
+        width: 100%;
+    }
+    p{
+        font-size: 130%;
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.5;
+        color: #262677;
+        width: 100%;
+        text-align: center;
+    }
+    article{
+        width: 100%;
+        height: auto;
+          display:block;
+    }
+    .pic5{
+        width: 60%;
+       
+    }
+    .pic5 img{
+        
+        margin-left: 20px;
+    }
+    .pic6{
+        width: 50%;
+        height: 500px;
+        position: absolute;
+        z-index: -1;
+        top: 800px;
+        margin-left: 650px;
+    }
+    
+    .pic6 img{
+        width: 100%;
+        height: 500px;
+       
+    }
+    .section-1{
+        position: absolute;
+        width: 100%;
+        height: 500px;
+         
+    }
+    .pic7{
+        width: 50%;
+        position: absolute;
+        z-index: -1;
+        margin-top: -540px;
+    }
+    .pic7 img{
+            width: 100%;
+             
+    }
+    
+    .pic8{
+        width: 30%;
+        left: 944px;
+        position: absolute;
+        z-index: -1;
+        margin-top: -435px;
+    }
+    .pic8 img{
+    width: 100%;   
+    }
+    
+    .pic9{     
+        width: 50%;
+        left: 0px;
+        position: absolute;
+        z-index: -1;
+        left: 0px;
+        margin-top: 80px;
+    }
+    .pic9 img{
+        width: 100%;
+         
+    }
+    section {
+        z-index: -1;
+        position: absolute;
+        width: 100%;
+        height: 1500px;
+        overflow: hidden;
+    }
+    .yoga-types{
+        width: 100%;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+        
+    }
+    .yoga-image{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .yoga-image img{
+        width: 50%;
+    }
+    .slides{
+        margin-top: 5%;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        margin-left: 0px;
+    }
+     
+    
+    .slides h3{
+        line-height: 2;
+        font-size: 150%;
+        font-family: 'Varela Round', sans-serif;
+        color: #b95872;
+        width: 100%;
+    }
+    
+    .social-media{
+        width: 40%;
+        height: 100px;
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    #slider{
+        height: 700px;
+        width: 100%;
+        overflow: hidden
+         
+    }
+    #slider h2{
+            justify-content: center;
+        align-content: center;
+        
+    }
+    #events{
+         height: auto;
+          width: 100%;
+       
+    }
+    .upcomig-events{
+         
+        display: block;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+    }
+     
+    .events{
+            
+        box-shadow: -1px 5px 18px 0px rgba(152, 153, 131, 0.35);
+    width: 70%;
+    height: auto;
+    margin-left: 50px;
+    color: #474593;
+    position: relative;
+    margin-left: 60px;
+}
+
+    .events img{
+         width: 60%;
+         height: 80%
+    }
+    
+    #events h2{
+         height: 100px;
+    
+    }
+    h4{
+            font-family: 'Varela Round', sans-serif;
+            position: absolute;
+            top: 150px;
+            left: 50px;
+    }
+    #rewards{
+        width: 100%;
+        background-image: url(festival.jpg);
+        height: 500px;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+     
+         .overlay{
+            background-color: #ffffffde;
+            height: 500px;
+            width: 90%;
+            display: block;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+         }   
+         #rewards h2{
+            font-family: 'Aclonica', sans-serif;
+            color: #b95872;
+            font-size: 200%;
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            margin-top: 0px;
+         }
+         
+         #rewards h3{
+            font-size: 150%;
+            color: #ea88a2;
+            text-align: center;
+            line-height: 1;
+            font-family: 'Aclonica', sans-serif;
+             width: 80%;
+        }
+        #rewards p{
+            width: 80%;
+            text-align: center;
+        }
+    #rewards ul{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+    
+    #rewards li{ 
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+       
+        font-family: 'Aclonica', sans-serif;
+        font-size: 180%;
+        color: #262677;
+    }
+     
+     
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+       
+        height: auto;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    .footer-box-logo{
+        width: 100%;
+        font-family: 'Yatra One', cursive;
+        font-size: 130%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #5374b2;
+        font-weight: 700;
+    
+    }
+    .footer-box-logo img{
+        width: 30%;
+        height: 200px;
+    
+    }
+    .address{
+        width: 80%;
+        height: auto;
+           justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column
+    }
+    .footer-box {
+        width: 50%;
+        display: flex;
+     
+        justify-content: center;
+        align-items: center;
+    }
+    .address p{
+            width: 100%;
+        height: auto;
+           text-align: justify;
+        align-items: center;
+        justify-content: center;
+        text-align: center
+       
+    }
+    
+    }
+
+
+    @media screen and (min-width: 1920px){
+
+
+        .yoga-types{ 
+        width: 55%;
+        height: auto;
+        display: flex;
+        flex-wrap: unset;
+        flex-direction: unset;
+
+    }
+
+    }
+
+
+
+
+
+
+
+    
+ 
