@@ -68,8 +68,8 @@
 }
 .menu li:hover{
     cursor: pointer;
-    background-color: aliceblue;
-    color: #3f456d;
+    background-color: #f7f7f7;
+    color: #030f4f;
 }
 .menu li::selection{
     background-color: white;
