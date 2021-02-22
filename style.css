@@ -3,42 +3,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
- 
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
-  
-  }
-  
-  body {
+
+}
+
+body {
     width: 100%;
     height: 100%;
     background-color: rgb(255, 255, 255);
-  }
-  
- .wrapper{
+}
+
+.wrapper {
     background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 27% 72.8%;
     grid-auto-rows: minmax(auto);
- }
- .column1{
-     /* background-color: #3f456d; */
-     color: rgb(255, 255, 255);
-     /* background-color: #122f42; */
-     /* background-color: #624075; */
-     background-color: #030f4f;
- }
- .column2{
+}
+
+.column1 {
+    /* background-color: #3f456d; */
+    color: rgb(255, 255, 255);
+    /* background-color: #122f42; */
+    /* background-color: #624075; */
+    background-color: #030f4f;
+}
+
+.column2 {
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
 }
-.logo{
+
+.logo {
     width: 100%;
     height: 150px;
     text-align: center;
@@ -46,12 +49,14 @@
     justify-content: center;
     align-items: center;
     font-family: 'Lobster', cursive;
-    
+
 }
-.logo h1{
+
+.logo h1 {
     width: 40%;
 }
-.menu{
+
+.menu {
     width: 100%;
     height: 180px;
     display: flex;
@@ -59,25 +64,30 @@
     justify-content: center;
     align-items: center;
 }
-.menu li{
+
+.menu li {
     width: 97%;
     text-align: center;
     line-height: 2;
     font-family: 'Saira Extra Condensed', sans-serif;
-    
+
 }
-.menu li:hover{
+
+.menu li:hover {
     cursor: pointer;
     background-color: #f7f7f7;
     color: #030f4f;
 }
-.menu li::selection{
+
+.menu li::selection {
     background-color: white;
 }
-.menu li h2{
+
+.menu li h2 {
     font-size: 120%;
 }
-.works{
+
+.works {
     width: 100%;
     height: 200px;
     display: flex;
@@ -85,31 +95,35 @@
     justify-content: center;
     align-items: center;
 }
-.works li{
+
+.works li {
     width: 100%;
     line-height: 2;
     margin-left: 4em;
 }
 
- 
 
-.works li a{
+
+.works li a {
     color: aliceblue;
     font-family: 'Poppins', sans-serif;
     line-height: 3;
     font-weight: 300;
 }
-.works li a:hover{
-font-weight: 500;
+
+.works li a:hover {
+    font-weight: 500;
 }
 
-.menu a{
+.menu a {
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
 
 }
 
-.project_1, .project_2, .project_3{
+.project_1,
+.project_2,
+.project_3 {
     width: 98%;
     height: 300px;
     display: flex;
@@ -118,15 +132,17 @@ font-weight: 500;
     /* background-color:#122f4224 */
     background-color: #f7f7f7;
 
- 
+
 }
-.image{
+
+.image {
     width: 35%;
     display: flex;
     align-items: center;
     position: relative;
 }
-.text{
+
+.text {
     width: 65%;
     height: 300px;
     align-items: center;
@@ -134,39 +150,47 @@ font-weight: 500;
     flex-direction: column;
 
 }
- .image img{
+
+.image img {
     width: 95%;
     height: 300px;
     z-index: 1;
 }
+
 .image img:nth-of-type(2) {
     display: none;
 }
-.text h2{
+
+.text h2 {
     text-align: center;
     margin-top: 1em;
     font-family: 'Saira Extra Condensed', sans-serif;
 }
-.text p{
+
+.text p {
     margin: 2em;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
 }
+
 .about_me {
-     display: none;
+    display: none;
 
 }
+
 .about_me_text {
     width: 100%;
     height: auto;
     display: flex;
 }
-.about_me_text img{
+
+.about_me_text img {
     width: 25%;
     height: 300px;
     margin-top: -3.9em;
 }
-.about_me_text p{
+
+.about_me_text p {
     width: 70%;
     line-height: 2;
     margin-top: 1em;
@@ -175,14 +199,16 @@ font-weight: 500;
     margin-left: 1.5em;
     font-family: 'Poppins', sans-serif;
 }
-.about_me h2{
+
+.about_me h2 {
     text-align: center;
     margin-top: 1em;
     font-family: 'Saira Extra Condensed', sans-serif;
 }
-.btn{
+
+.btn {
     width: 20%;
-    height:50px;
+    height: 50px;
     /* background-color: #3f456d; */
     display: flex;
     justify-content: center;
@@ -190,20 +216,23 @@ font-weight: 500;
     /* background-color: #122f42; */
     background-color: #030f4f;
 }
-.btn a{
+
+.btn a {
     color: rgb(255, 255, 255);
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 130%;
 }
-.icons{
+
+.icons {
     display: flex;
     flex-direction: column;
     font-family: 'Saira Extra Condensed', sans-serif;
-     line-height: 2;
+    line-height: 2;
     align-items: center;
     font-size: 70%;
 }
-.developedby{
+
+.developedby {
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 70%;
     text-align: center;
@@ -214,93 +243,105 @@ font-weight: 500;
     font-size: 300%;
     color: #ffffff;
     cursor: pointer;
-    
-  }
-  
-  .fab::before {
+
+}
+
+.fab::before {
     content: "\f08c";
     line-height: 2;
-  }
+}
 
-  .overlay{
+.overlay {
     /* background-color: #ffffff17; */
-   
+
     justify-content: center;
     display: flex;
     width: 95%;
     height: 100%;
     position: absolute;
     background-color: #d7c533;
-       
-  }
-  .skills{
-      width: 100%;
-      height: auto;
-      display: none;
-    
-  }
-  .box_of_skills_1{
+
+}
+
+.skills {
+    width: 100%;
+    height: auto;
+    display: none;
+
+}
+
+.box_of_skills_1 {
     width: 100%;
     display: flex;
     margin-top: 3em;
- 
 
-  }
-  .list_of_skills{
-      width: 50%;
+
+}
+
+.list_of_skills {
+    width: 50%;
     height: auto;
- 
-   
-  }
-  .skills h2{
+
+
+}
+
+.skills h2 {
     margin-top: 1em;
     text-align: center;
     font-family: 'Saira Extra Condensed', sans-serif;
 
-  }
-  .list_of_skills li{
+}
+
+.list_of_skills li {
     height: 2em;
     margin-left: 6em;
     font-family: 'Poppins', sans-serif;
     list-style-type: disc;
     width: 80%;
-  }
-  .cert{
-      display: none;
-      width: 100%;
-  }
- .cert_box{
-     width: 100%;
-     height: 450px;
-     display: flex;
- }
- .cert_box_image{
-     width: 50%;
- }
- .cert_box_image img{
-     width: 100%;
-     height: 430px;
- }
- .cert_box_txt{
+}
+
+.cert {
+    display: none;
+    width: 100%;
+}
+
+.cert_box {
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+
+.cert_box_image {
+    width: 50%;
+}
+
+.cert_box_image img {
+    width: 100%;
+    height: 430px;
+}
+
+.cert_box_txt {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 300px;
-     
- }
- .cert_box_txt h2{
+
+}
+
+.cert_box_txt h2 {
     font-family: 'Saira Extra Condensed', sans-serif;
     margin-top: 1em;
- }
- .cert_box_txt p{
+}
+
+.cert_box_txt p {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     margin-top: 5em;
     margin-left: 2em;
     margin-right: 2em;
     line-height: 2.5;
- }
+}
 
 
 
@@ -319,148 +360,171 @@ font-weight: 500;
 
 @media screen and (min-width: 1920px) {
 
-    .column2{
+    .column2 {
         height: auto;
     }
 
-.project_1, .project_2, .project_3{
+    .project_1,
+    .project_2,
+    .project_3 {
 
-    height: 450px;
-}
-.image img {
-   
-    height: 450px;
-   
-}
-.works li{
-    width: 50%;
-}
-.text{
-    height: 450px;
-}
-.text p{
- width: 50%;
-}
+        height: 450px;
+    }
 
-.text h2{
-    margin-top: 2em;
-    font-size: 180%;
-}
-.btn{
-    margin-top: 6em;
-    width: 15%;
-}
-.logo h1 {
-    width: 30%;
-    font-size: 250%;
-}
-.logo{
-    margin-top: 3em;
-}
-.developedby{
-    margin-top: 48em;
-}
+    .image img {
 
-.menu li h2 {
-    font-size: 130%;
-}
-.icons{
-    font-size: 80%;
-    margin-top: 8em;
-}
-.developedby p{
-    font-size: 150%;
-}
+        height: 450px;
 
-.menu{
-    margin-top:5em;
-}
+    }
 
-.menu li{
-    line-height: 2.5;
-}
-.about_me_text img {
-    width: 22%;
-    height: 550px;
-    margin-top: -1.5em;
-}
-.about_me h2{
-    font-size: 180%;
-    margin-top: 0.57em;
-}
+    .works li {
+        width: 50%;
+    }
 
-.skills h2{
-    font-size: 180%;
-}
+    .text {
+        height: 450px;
+    }
 
-.cert_box {
-    width: 100%;
-    height: 550px;
-    display: flex;
-}
-.cert_box_image img {
-    width: 90%;
-    height: 550px;
-}
+    .text p {
+        width: 50%;
+    }
 
+    .text h2 {
+        margin-top: 2em;
+        font-size: 180%;
+    }
 
-.about_me_text{
-    align-items: center;
-}
-.about_me_text p {
-    width: 60%;
-    line-height: 2.5;
-    margin-top: -3em;
-    margin-right: 0em;
-    margin-bottom: 0em;
-    margin-left: 10.5em;
-}
+    .btn {
+        margin-top: 6em;
+        width: 15%;
+    }
 
-.list_of_skills li {
-    height: 2.5em;
-    margin-left: 15em;
-    font-family: 'Poppins', sans-serif;
-    list-style-type: disc;
-    width: 50%;
-}
-.cert_box_txt h2 {
-    font-family: 'Saira Extra Condensed', sans-serif;
-    margin-top: 2em;
-    font-size: 180%;
-}
+    .logo h1 {
+        width: 30%;
+        font-size: 250%;
+    }
 
-} 
+    .logo {
+        margin-top: 3em;
+    }
+
+    .developedby {
+        margin-top: 48em;
+    }
+
+    .menu li h2 {
+        font-size: 130%;
+    }
+
+    .icons {
+        font-size: 80%;
+        margin-top: 8em;
+    }
+
+    .developedby p {
+        font-size: 150%;
+    }
+
+    .menu {
+        margin-top: 5em;
+    }
+
+    .menu li {
+        line-height: 2.5;
+    }
+
+    .about_me_text img {
+        width: 22%;
+        height: 550px;
+        margin-top: -1.5em;
+    }
+
+    .about_me h2 {
+        font-size: 180%;
+        margin-top: 0.57em;
+    }
+
+    .skills h2 {
+        font-size: 180%;
+    }
+
+    .cert_box {
+        width: 100%;
+        height: 550px;
+        display: flex;
+    }
+
+    .cert_box_image img {
+        width: 90%;
+        height: 550px;
+    }
 
 
-@media (min-width: 730px) and (max-width:1024px){
+    .about_me_text {
+        align-items: center;
+    }
+
+    .about_me_text p {
+        width: 60%;
+        line-height: 2.5;
+        margin-top: -3em;
+        margin-right: 0em;
+        margin-bottom: 0em;
+        margin-left: 10.5em;
+    }
+
+    .list_of_skills li {
+        height: 2.5em;
+        margin-left: 15em;
+        font-family: 'Poppins', sans-serif;
+        list-style-type: disc;
+        width: 50%;
+    }
+
+    .cert_box_txt h2 {
+        font-family: 'Saira Extra Condensed', sans-serif;
+        margin-top: 2em;
+        font-size: 180%;
+    }
+
+}
+
+
+@media (min-width: 730px) and (max-width:1024px) {
     .logo h1 {
         width: 50%;
     }
 
     .menu li {
         width: 100%;
-     
+
     }
+
     .menu li h2 {
         font-size: 100%;
     }
+
     .works li a {
         font-weight: 200;
         font-size: 70%;
         line-height: 3;
     }
+
     .works li {
         margin-left: 1em;
     }
-    .image img { 
+
+    .image img {
         height: 200px;
-      
+
     }
+
     .text {
-       
+
         height: 200px;
-        
+
     }
+
     .text p {
         font-size: 80%;
     }
@@ -468,72 +532,73 @@ font-weight: 500;
     .text h2 {
         margin-top: 0.5em;
     }
-    .project_1, .project_2, .project_3 {
+
+    .project_1,
+    .project_2,
+    .project_3 {
         height: 250px;
     }
-.btn{
-    height: 30px;
-     
-}
 
-.developedby {
-    margin-top: 0em;
-}
-.about_me_text img {
-    width: 30%;
-    height: 250px;
-    margin-top: -3.9em;
-}
+    .btn {
+        height: 30px;
 
-.about_me_text p{
-    font-size: 70%;
-    margin-top: 0em;
-    margin-right: 0em;
-    margin-bottom: 0em;
-    margin-left: 1.5em;
-}
+    }
 
-.image{
-    align-items: flex-end;
-}
-.list_of_skills li {
-    height: auto;
-    margin-left: 2em;
-    
-}
- 
-.box_of_skills_1 {
-    margin-top: 1em;
-    font-size: 80%;
-    line-height: 2;
-}
- 
+    .developedby {
+        margin-top: 0em;
+    }
 
-.cert_box_txt p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    margin-top: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
-   
-}
-.cert_box {
+    .about_me_text img {
+        width: 30%;
+        height: 250px;
+        margin-top: -3.9em;
+    }
 
-    height: 300px;
-  
-}
+    .about_me_text p {
+        font-size: 70%;
+        margin-top: 0em;
+        margin-right: 0em;
+        margin-bottom: 0em;
+        margin-left: 1.5em;
+    }
 
-.cert_box_image img {
-    width: 100%;
-    height: 300px;
-}
+    .image {
+        align-items: flex-end;
+    }
 
-}
+    .list_of_skills li {
+        height: auto;
+        margin-left: 2em;
 
-@media (min-width: 319px) and (max-width:767px) {
+    }
+
+    .box_of_skills_1 {
+        margin-top: 1em;
+        font-size: 80%;
+        line-height: 2;
+    }
 
 
+    .cert_box_txt p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
 
+    }
+
+    .cert_box {
+
+        height: 300px;
+
+    }
+
+    .cert_box_image img {
+        width: 100%;
+        height: 300px;
+    }
 
 }
 
+@media (min-width: 319px) and (max-width:767px) {}
