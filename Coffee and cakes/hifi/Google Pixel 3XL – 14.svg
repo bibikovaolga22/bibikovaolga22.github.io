@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="412" height="812" viewBox="0 0 412 812">
+  <defs>
+    <filter id="Path_3462" x="101.5" y="664.5" width="190.333" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect width="35" height="42" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="17" height="17" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="24" height="24" fill="none"/>
+    </clipPath>
+    <filter id="Path_3462-2" x="101.5" y="664.5" width="190.333" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Google_Pixel_3XL_14">
+      <rect width="412" height="812"/>
+    </clipPath>
+  </defs>
+  <g id="Google_Pixel_3XL_14" data-name="Google Pixel 3XL – 14" clip-path="url(#clip-Google_Pixel_3XL_14)">
+    <rect width="412" height="812" fill="#fff"/>
+    <g id="Group_75" data-name="Group 75" transform="translate(-2684 -2482)">
+      <g id="Group_59" data-name="Group 59" transform="translate(2987 2370)">
+        <text id="_17" data-name="17" transform="translate(-100.836 214)" fill="#4b2b5e" font-size="30" font-family="ArialRoundedMTBold, Arial Rounded MT" letter-spacing="0.017em"><tspan x="0" y="0">17</tspan></text>
+      </g>
+      <g id="euro-currency-symbol" transform="translate(2981.333 2377.333)">
+        <path id="Path_2113" data-name="Path 2113" d="M37.688,19.794A7.551,7.551,0,0,1,32.266,22.2c-3.265,0-6.093-2.252-7.424-5.507h9.07a1.4,1.4,0,1,0,0-2.8H24.119a11.5,11.5,0,0,1-.087-1.4,11.357,11.357,0,0,1,.11-1.573h9.771a1.4,1.4,0,1,0,0-2.8H24.918A8.22,8.22,0,0,1,32.266,2.8a7.552,7.552,0,0,1,5.422,2.409,1.443,1.443,0,0,0,2.013.05,1.381,1.381,0,0,0,.051-1.977A10.394,10.394,0,0,0,32.266,0C27.518,0,23.46,3.386,21.885,8.129H18.068a1.4,1.4,0,1,0,0,2.8h3.206a14.139,14.139,0,0,0-.091,1.573c0,.473.025.939.071,1.4H18.068a1.4,1.4,0,1,0,0,2.8h3.76C23.36,21.53,27.46,25,32.266,25a10.394,10.394,0,0,0,7.486-3.279,1.381,1.381,0,0,0-.051-1.977A1.442,1.442,0,0,0,37.688,19.794Z" transform="translate(-139.644 183)" fill="#4b2b5e"/>
+      </g>
+    </g>
+    <text id="User_s_Name" data-name="User&apos;s Name" transform="translate(136 148)" fill="#4b2b5e" font-size="22" font-family="ArialRoundedMTBold, Arial Rounded MT" letter-spacing="0.017em"><tspan x="0" y="0">User&apos;s Name</tspan></text>
+    <text id="Deliver_to" data-name="Deliver to" transform="translate(34 214)" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.017em"><tspan x="0" y="0">Deliver to</tspan></text>
+    <path id="Path_3617" data-name="Path 3617" d="M0,0H324.333" transform="translate(34 259)" fill="none" stroke="#1d1b1b" stroke-width="1"/>
+    <path id="Path_3618" data-name="Path 3618" d="M0,0H324.333" transform="translate(34 304)" fill="none" stroke="#1d1b1b" stroke-width="1"/>
+    <text id="Address_1" data-name="Address 1" transform="translate(34 256)" font-size="15" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.017em"><tspan x="0" y="0">Address 1</tspan></text>
+    <text id="Address_2" data-name="Address 2" transform="translate(34 301)" font-size="15" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.017em"><tspan x="0" y="0">Address 2</tspan></text>
+    <text id="_" data-name="
+" transform="translate(270 285)" font-size="18" font-family="Roboto-Regular, Roboto" letter-spacing="0.017em"><tspan x="0" y="0"></tspan><tspan x="0" y="24"></tspan></text>
+    <g id="Group_83" data-name="Group 83" transform="translate(1498 -1229)">
+      <rect id="Rectangle_640" data-name="Rectangle 640" width="268" height="171" transform="translate(-1463 1635)" fill="#fff"/>
+      <text id="Card_Name" data-name="Card Name" transform="translate(-1463 1656)" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.017em"><tspan x="0" y="0">Card Name</tspan></text>
+      <path id="Path_3619" data-name="Path 3619" d="M0,0H268" transform="translate(-1463 1682)" fill="none" stroke="#1d1b1b" stroke-width="1"/>
+      <text id="Card_Number" data-name="Card Number" transform="translate(-1463 1707)" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.017em"><tspan x="0" y="0">Card Number</tspan></text>
+      <path id="Path_3621" data-name="Path 3621" d="M0,0H268" transform="translate(-1463 1733)" fill="none" stroke="#1d1b1b" stroke-width="1"/>
+      <text id="Expiry_Date" data-name="Expiry Date" transform="translate(-1464 1758)" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.017em"><tspan x="0" y="0">Expiry Date</tspan></text>
+      <path id="Path_3622" data-name="Path 3622" d="M0,0H112" transform="translate(-1463 1784)" fill="none" stroke="#1d1b1b" stroke-width="1"/>
+      <text id="CVV" transform="translate(-1250 1758)" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.017em"><tspan x="0" y="0">CVV</tspan></text>
+      <path id="Path_3623" data-name="Path 3623" d="M0,0H75" transform="translate(-1270 1784)" fill="none" stroke="#1d1b1b" stroke-width="1"/>
+    </g>
+    <g id="Buttons_Contained_Enabled" data-name="Buttons / Contained / Enabled" transform="translate(106 668)">
+      <g transform="matrix(1, 0, 0, 1, -106, -668)" filter="url(#Path_3462)">
+        <path id="Path_3462-3" data-name="Path 3462" d="M7.884,41H173.449c4.354,0,7.884-1.791,7.884-4V4c0-2.209-3.53-4-7.884-4H7.884C3.53,0,0,1.791,0,4V37C0,39.209,3.53,41,7.884,41Z" transform="translate(106 668)" fill="#9c0538"/>
+      </g>
+      <text id="MAKE_AN_ORDER" data-name="MAKE AN ORDER" transform="translate(11.496 27.5)" fill="#fff" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.089em"><tspan x="0" y="0">MAKE AN ORDER</tspan></text>
+    </g>
+    <g id="Group_84" data-name="Group 84" transform="translate(14 1)">
+      <line id="Line_3" data-name="Line 3" x2="11" y2="11" transform="translate(357.5 20.5)" fill="none" stroke="#fff" stroke-width="2"/>
+      <line id="Line_4" data-name="Line 4" x1="11" y2="11" transform="translate(357.5 20.5)" fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+    <g id="Group_86" data-name="Group 86" transform="translate(69 -3)">
+      <g id="Icon_Location_On_Filled" data-name="Icon / Location On / Filled" transform="translate(273 221)" clip-path="url(#clip-path)">
+        <rect id="Box" width="35" height="35" fill="none"/>
+        <path id="Path_1996" data-name="Path 1996" d="M305.5-22C298.589-22,293-16.053,293-8.7,293,1.275,305.5,16,305.5,16S318,1.275,318-8.7C318-16.053,312.411-22,305.5-22Zm0,18.05a4.615,4.615,0,0,1-4.464-4.75,4.615,4.615,0,0,1,4.464-4.75,4.616,4.616,0,0,1,4.464,4.75A4.616,4.616,0,0,1,305.5-3.95Z" transform="translate(-288 24)" fill="#4b2b5e"/>
+      </g>
+      <path id="Path_3629" data-name="Path 3629" d="M5.5,0A5.5,5.5,0,1,1,0,5.5,5.5,5.5,0,0,1,5.5,0Z" transform="translate(285 231)" fill="#4b2b5e"/>
+      <g id="Icon_Circle_Rounded" data-name="Icon / Circle / Rounded" transform="translate(281.615 228)" clip-path="url(#clip-path-2)">
+        <rect id="Box-2" data-name="Box" width="16" height="16" fill="none"/>
+        <path id="Path_2015" data-name="Path 2015" d="M918.4,11.18a4.742,4.742,0,0,1-3.9-2.08c0-1.3,2.6-2.015,3.9-2.015s3.9.715,3.9,2.015A4.743,4.743,0,0,1,918.4,11.18Zm0-9.23a1.915,1.915,0,0,1,1.95,1.95,1.95,1.95,0,0,1-3.9,0A1.915,1.915,0,0,1,918.4,1.95Zm0-1.95a6.5,6.5,0,1,0,6.5,6.5A6.519,6.519,0,0,0,918.4,0Z" transform="translate(-910 2)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Component_798_20" data-name="Component 798 – 20" transform="translate(0 4)">
+      <g id="App_Bar_Top_App_Bar_Regular_Raised_Primary_Color" data-name="App Bar / Top App Bar / Regular / Raised / Primary Color">
+        <path id="Surface" d="M75-1384H487v-55H75Z" transform="translate(-75 1439)" fill="#fff"/>
+        <g id="Icon_Favorite_Filled" data-name="Icon / Favorite / Filled" transform="translate(314 16)" clip-path="url(#clip-path-3)">
+          <rect id="Box-3" data-name="Box" width="24" height="24" fill="none"/>
+          <path id="Icon_Favorite" data-name="Icon / Favorite" d="M364-1396.65l-1.45-1.32c-5.15-4.67-8.55-7.75-8.55-11.53a5.447,5.447,0,0,1,5.5-5.5,5.989,5.989,0,0,1,4.5,2.09,5.989,5.989,0,0,1,4.5-2.09,5.447,5.447,0,0,1,5.5,5.5c0,3.78-3.4,6.86-8.55,11.54Z" transform="translate(-352 1418)" fill="#9c0538"/>
+        </g>
+      </g>
+      <g id="Icon_Shopping_Cart_Rounded" data-name="Icon / Shopping Cart / Rounded" transform="translate(364 16)">
+        <rect id="Box-4" data-name="Box" width="24" height="24" fill="none"/>
+        <path id="Path_2021" data-name="Path 2021" d="M1119.9,16a2,2,0,1,0,2,2A2.006,2.006,0,0,0,1119.9,16Zm-16-15a.945.945,0,0,0,1,1h1l3.6,7.6-1.3,2.4a2.04,2.04,0,0,0,1.8,3h11a1,1,0,0,0,0-2h-11l1.1-2h7.5a2.1,2.1,0,0,0,1.8-1l3.6-6.5a1,1,0,0,0-.9-1.5h-14.8l-.7-1.4a1.149,1.149,0,0,0-.9-.6h-1.6A1.062,1.062,0,0,0,1103.9,1Zm6,15a2,2,0,1,0,2,2A2.006,2.006,0,0,0,1109.9,16Z" transform="translate(-1102 2)" fill="#9c0538"/>
+      </g>
+      <g id="Icon_Circle_Rounded-2" data-name="Icon / Circle / Rounded" transform="translate(269 16)">
+        <rect id="Box-5" data-name="Box" width="24" height="24" fill="none"/>
+        <path id="Path_2015-2" data-name="Path 2015" d="M921.9,17.2a7.3,7.3,0,0,1-6-3.2c0-2,4-3.1,6-3.1s6,1.1,6,3.1A7.3,7.3,0,0,1,921.9,17.2Zm0-14.2a2.946,2.946,0,0,1,3,3,3,3,0,0,1-6,0A2.946,2.946,0,0,1,921.9,3Zm0-3a10,10,0,1,0,10,10A10.029,10.029,0,0,0,921.9,0Z" transform="translate(-910 2)" fill="#9c0538"/>
+      </g>
+    </g>
+    <g id="Icon_Keyboard_Arrow_-_Left_Outlined" data-name="Icon / Keyboard Arrow - Left / Outlined" transform="translate(22 15)">
+      <rect id="Box-6" data-name="Box" width="24" height="24" fill="none"/>
+      <path id="Icon_Keyboard_Arrow_-_Up_Dark" data-name="Icon / Keyboard Arrow - Up / Dark" d="M10.6,7.4,6,2.8,1.4,7.4,0,6,6,0l6,6Z" transform="translate(8.3 17.7) rotate(-90)" fill="#9c0538"/>
+    </g>
+    <g id="Icon_Keyboard_Arrow_-_Left_Outlined-2" data-name="Icon / Keyboard Arrow - Left / Outlined" transform="translate(22 15)">
+      <rect id="Box-7" data-name="Box" width="24" height="24" fill="none"/>
+      <path id="Icon_Keyboard_Arrow_-_Up_Dark-2" data-name="Icon / Keyboard Arrow - Up / Dark" d="M10.6,7.4,6,2.8,1.4,7.4,0,6,6,0l6,6Z" transform="translate(8.3 17.7) rotate(-90)" fill="#9c0538"/>
+    </g>
+    <path id="Path_3630" data-name="Path 3630" d="M0,0H324.333" transform="translate(34 349)" fill="none" stroke="#1d1b1b" stroke-width="1"/>
+    <text id="Address_2-2" data-name="Address 2" transform="translate(34 346)" font-size="15" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.017em"><tspan x="0" y="0">Address 2</tspan></text>
+    <text id="_2" data-name="
+" transform="translate(270 330)" font-size="18" font-family="Roboto-Regular, Roboto" letter-spacing="0.017em"><tspan x="0" y="0"></tspan><tspan x="0" y="24"></tspan></text>
+    <g id="Buttons_Contained_Enabled-2" data-name="Buttons / Contained / Enabled" transform="translate(106 668)">
+      <g transform="matrix(1, 0, 0, 1, -106, -668)" filter="url(#Path_3462-2)">
+        <path id="Path_3462-4" data-name="Path 3462" d="M7.884,41H173.449c4.354,0,7.884-1.791,7.884-4V4c0-2.209-3.53-4-7.884-4H7.884C3.53,0,0,1.791,0,4V37C0,39.209,3.53,41,7.884,41Z" transform="translate(106 668)" fill="#9c0538"/>
+      </g>
+      <text id="MAKE_AN_ORDER-2" data-name="MAKE AN ORDER" transform="translate(11.496 27.5)" fill="#fff" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.089em"><tspan x="0" y="0">MAKE AN ORDER</tspan></text>
+    </g>
+  </g>
+</svg>

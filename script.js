@@ -1,120 +1,127 @@
 'use strict';
 
+
 var aboutMe = document.querySelector("#aboutMe");
 var work = document.querySelector("#work");
-var two = document.querySelector(".two");
-var three = document.querySelector(".three");
-var four = document.querySelector(".four");
-var five = document.querySelector(".five");
-var six = document.querySelector(".six");
-var seven = document.querySelector(".seven");
-var four1 = document.querySelector(".four1");
-var wrapper = document.querySelector(".grid");
-var overlay = document.querySelector(".overlay")
-var overlay1 = document.querySelector(".overlay1")
-var overlay2 = document.querySelector(".overlay2")
-var overlay3 = document.querySelector(".overlay3")
-var skills = document.querySelector(".skills")
-var hardskills = document.querySelector(".hardskills")
-
-aboutMe.addEventListener("click", function (event) {
-  skills.style.display = "flex";
-  hardskills.style.display = "flex";
-  overlay1.firstElementChild.style.display = "none"
-  overlay2.firstElementChild.style.display = "none"
-  skills.style.color = "#4E547D";
-  skills.firstElementChild.nextElementSibling.style.color = "#4E547D"
-  hardskills.style.color = "#ffffff";
-  four.style.backgroundColor = "rgb(255 255 255)"
-  overlay2.style.backgroundColor = "#4E547D"
-  overlay1.style.backgroundColor = "rgb(255 255 255)"
-  overlay.style.display = "none"
-  four.firstElementChild.style.display = "none"
-  four.firstElementChild.nextElementSibling.style.display = "block"
-  four.firstElementChild.nextElementSibling.style.borderRadius = "5px";
-  four.firstElementChild.nextElementSibling.style.alignSelf = "center";
-  four.firstElementChild.nextElementSibling.style.height = "auto";
-  four.style.display = "flex";
-  four.style.justifyContent = "center";
+var certificates = document.querySelector("#certificates");
+var wrapper = document.querySelector(".wrapper");
+var skills = document.querySelector(".skills");
+var project_3 = document.querySelector(".project_3");
+var image = document.querySelector(".image");
+var text =  document.querySelector(".text")
+var aboutMeText = document.querySelector(".about_me")
+var project_2 = document.querySelector(".project_2");
+var project_1 = document.querySelector(".project_1");
+var columnTwo = document.querySelector(".column2");
+var dev = document.querySelector(".developedby");
+var menu = document.querySelector(".menu");
+var cert = document.querySelector(".cert")
+var certTwo = document.querySelector(".cert2")
 
 
+
+
+
+certificates.addEventListener("click", function (event){
+
+cert.style.display = "block"
+project_2.style.display = "none"
+project_1.style.display = "none"
+project_3.style.display = "none"
+dev.style.marginTop = "97em";
 
 });
 
 
-work.addEventListener("click", function (event) {
-  skills.style.display = "none";
-  overlay1.firstElementChild.style.display = "block"
-  three.style.height = "auto";
-  six.style.display = "block";
-  seven.style.display = "none"
-  overlay2.style.display = "flex"
-  overlay3.style.display = "none"
-  overlay1.style.height = "auto"
-  five.style.height = "auto"
-  overlay.style.height = "auto"
-  four.style.height = "auto"
-  wrapper.style.height = "auto"
-  overlay1.style.opacity = "1"
-  overlay1.style.backgroundColor = "rgb(232 233 245 / 60%)"
-  overlay.style.display = "flex"
-  four.firstElementChild.style.display = "block"
-  overlay2.firstElementChild.style.display = "block"
-  four.firstElementChild.nextElementSibling.style.display = "none"
-  four.firstElementChild.nextElementSibling.style.width = "100%";
-  four.style.display = "flex";
-  four.style.justifyContent = "center";
-  skills.style.display = "none";
-  hardskills.style.display = "none";
-  overlay2.style.backgroundColor = "rgb(232 233 245 / 60%)"
-
-
+aboutMe.addEventListener("click", function (event){
+cert.style.display = "none"
+aboutMeText.style.display = "block "
+project_1.style.display = "block"
+project_1.firstElementChild.style.display = "none";
+project_1.firstElementChild.nextElementSibling.style.display = "none";
+project_2.style.display = "block"
+project_2.firstElementChild.style.display = "none";
+project_2.firstElementChild.nextElementSibling.style.display = "none";
+skills.style.display = "block";
+ columnTwo.style.height = "auto";
+ dev.style.marginTop = "0.8em";
+ cert.style.display = "none";
+ project_3.style.display = "none"
 });
+
+
+work.addEventListener("click", function (event){
+
+    image.style.display = "flex";
+    text.style.display = "flex";
+    aboutMeText.style.display = "none"
+    project_1.style.display = "flex"
+    project_2.style.display = "flex"
+    project_3.style.display = "flex"
+    project_2.firstElementChild.style.display = "flex";
+    project_2.firstElementChild.nextElementSibling.style.display = "flex";
+    skills.style.display = "none";
+    dev.style.marginTop = "31em";
+    cert.style.display = "none";
+    
+ 
+});
+
+
+
+
+
+
 
 
 aboutMe.addEventListener("click", function myFunction() {
 
 
-  var y = window.matchMedia("(max-width:730px)")
-  if (y.matches) {
+    var y = window.matchMedia("(min-width:1920px)")
+    if (y.matches) {
+  
+        dev.style.marginTop = "38em";
+        project_1.style.height = "630px";
+        project_2.style.height = "630px";
+    }  
+  
+  
+  });
+
+  work.addEventListener("click", function myFunction() {
 
 
-    four.firstElementChild.nextElementSibling.style.height = "95%";
-    four.firstElementChild.nextElementSibling.style.width = "40%";
-  }
+    var y = window.matchMedia("(min-width:1920px)")
+    if (y.matches) {
+  
+  
+        project_1.style.height = "450px";
+        project_2.style.height = "450px";
+        dev.style.marginTop = "48em";
+    }  
+  
+  
+  });
 
+
+ work.addEventListener("click", function myFunction() {
+
+
+    var y = window.matchMedia("(max-width:1024px)")
+    if (y.matches) {
+
+        dev.style.marginTop = "0em";
+    }
 
 });
-aboutMe.addEventListener("click", function myFunction() {
+
+certificates.addEventListener("click", function myFunction() {
 
 
-  var y = window.matchMedia("(min-width:1920px)")
-  if (y.matches) {
+    var y = window.matchMedia("(max-width:1024px)")
+    if (y.matches) {
 
-
-    four.firstElementChild.nextElementSibling.style.height = "80%";
-    four.firstElementChild.nextElementSibling.style.width = "70%";
-  }
-
+        dev.style.marginTop = "0em";
+    }
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
