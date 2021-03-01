@@ -10,7 +10,8 @@
         list-style: none;
 
     }
-    body{
+
+    body {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -24,23 +25,23 @@
         align-items: center;
     }
 
-     .image_box{
+    .image_box {
         width: 44%;
         padding-right: 40em;
         height: 600px;
         position: absolute;
         margin-top: 3em;
-    
-     }
 
-     .image_box img{
+    }
+
+    .image_box img {
         height: 570px;
         position: absolute;
         margin-left: -8em;
         margin-top: 0em;
-     }
+    }
 
-     .text_box{
+    .text_box {
         width: 40%;
         height: 457px;
         margin-left: 40em;
@@ -51,40 +52,43 @@
         margin-bottom: 2em;
 
     }
-    .text_box h1{
+
+    .text_box h1 {
         font-family: 'Montserrat', sans-serif;
         text-align: center;
         line-height: 3;
-    font-size: 250%;
-}
-    
+        font-size: 250%;
+    }
+
     .text_box h3 {
         font-family: 'Montserrat', sans-serif;
-        text-align: center;  
+        text-align: center;
         line-height: 3;
-    
+
     }
-    .text_box ul{
+
+    .text_box ul {
         margin-top: 2em;
     }
 
-    .text_box p{
+    .text_box p {
         width: 85%;
         margin-top: 2em;
         margin-left: 3em;
     }
-    .text_box ul li{
-    line-height: 2;
-    font-family: 'Raleway', sans-serif;
-    margin-left: 3em;
-}
 
-header .img {
-    width: 100%;
-    height: 690px;
-    background-size: cover;
-    background-image: linear-gradient(to bottom, #476a79, #476a79db, #476a79cc, #476a79a6, #476a79a8, #476a79a6, #476a796e, #476a7994, hsl(198deg 21% 47% / 38%), hsl(198deg 21% 47% / 51%), #dfefffbd, rgb(255 255 255)), url(header0.jpg);
-}
+    .text_box ul li {
+        line-height: 2;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 3em;
+    }
+
+    header .img {
+        width: 100%;
+        height: 690px;
+        background-size: cover;
+        background-image: linear-gradient(to bottom, #476a79, #476a79db, #476a79cc, #476a79a6, #476a79a8, #476a79a6, #476a796e, #476a7994, hsl(198deg 21% 47% / 38%), hsl(198deg 21% 47% / 51%), #dfefffbd, rgb(255 255 255)), url(header0.jpg);
+    }
 
     .challenge,
     .research,
@@ -114,7 +118,7 @@ header .img {
     h2 {
         font-family: 'Montserrat', sans-serif;
         line-height: 3;
-       font-weight: 500;
+        font-weight: 500;
         font-size: 200%;
     }
 
@@ -135,9 +139,9 @@ header .img {
 
     .scope-image img {
         height: 210px;
-}
+    }
 
-    .scope-image img:nth-child(2){
+    .scope-image img:nth-child(2) {
         height: 178px;
         width: 20%;
     }
@@ -148,26 +152,29 @@ header .img {
         justify-content: center;
 
     }
+
     .interv-box p {
 
         margin-top: 1.5em;
     }
 
-    .interv-box-one, .interv-box-two {
+    .interv-box-one,
+    .interv-box-two {
         width: 50%;
         display: flex;
         flex-direction: column;
-    align-items: center;
-    margin-top: 2em;
+        align-items: center;
+        margin-top: 2em;
     }
 
-    
 
-    .interv-box-one img, .interv-box-two img {
-        
-       width: 80%;
+
+    .interv-box-one img,
+    .interv-box-two img {
+
+        width: 80%;
     }
-       
+
     .design-thinking-stages {
         display: flex;
         flex-flow: column;
@@ -261,7 +268,7 @@ header .img {
 
     .lofi-img img,
     .iteration-img img {
-         
+
         margin-left: 30px;
     }
 
